@@ -18,8 +18,9 @@ repositories {
     }
     jcenter()
 }
-
+def myDepVersion = "1.58"
 dependencies {
+    implementation "com.atlassian.dummy:dummy-public:${myDepVersion}"
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:28.1-jre'
     //implementation 'org.mzae:mzae:1.0.0'

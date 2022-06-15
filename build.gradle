@@ -18,9 +18,9 @@ repositories {
     }
     jcenter()
 }
-def myDepVersion = "1.58"
+def myDepVersion = "2.13.3"
 dependencies {
-    implementation "com.atlassian.dummy:dummy-public:${myDepVersion}"
+    implementation "com.fasterxml.jackson.core:jackson-databind:${myDepVersion}"
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:28.1-jre'
     //implementation 'org.mzae:mzae:1.0.0'

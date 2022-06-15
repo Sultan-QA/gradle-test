@@ -19,8 +19,10 @@ repositories {
     jcenter()
 }
 def myDepVersion = "2.13.3"
+def myPrivateDep = "1.1.1"
 dependencies {
     implementation "com.fasterxml.jackson.core:jackson-databind:${myDepVersion}"
+    implementation "org.mzae:mzae:${myPrivateDep}"
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:28.1-jre'
     //implementation 'org.mzae:mzae:1.0.0'

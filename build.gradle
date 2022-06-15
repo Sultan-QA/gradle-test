@@ -10,7 +10,7 @@ plugins {
 repositories {
        maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/sultan-qa/_")
+        url = "https://maven.pkg.github.com/sultan-qa/_"
         credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
                 password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
